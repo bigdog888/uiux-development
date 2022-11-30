@@ -17,6 +17,13 @@ track of whether the menu is being sorted and/or filtered, as well as the names 
 the add/remove to/from cart buttons. 
 
 ### How Data is Passed Down Through Components
+The add/remove items from the shopping cart buttons take in an item to either remove or add. The filter buttons keep track of 
+whether or not the filter is currently already active and start or stop the filter appropriately. The sort button does not
+take in any parameters and simply sorts the items. The bakeryItem component takes in what item to represent and shows that item
+within the menu accordingly. 
 
 ### How the User Triggers State Changes
+The add/remove buttons add or remove a respective item to or from the cart. The filter buttons apply or stop applying the respective
+filter (toast-based pastries or vegan pastries). The sort button sorts by price, and the reset button resets everything on the menu 
+to its original state.
 
