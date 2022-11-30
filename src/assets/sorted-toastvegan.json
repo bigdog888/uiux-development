@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Toast with Butter",
+    "description": "A slice of toast with a pat of butter",
+    "price": 1.99,
+    "image": "images/kelly.png"
+  },
+  {
+    "name": "Croissant",
+    "description": "A classic butter croissant with a flaky crust",
+    "price": 2.99,
+    "image": "images/jessie.png"
+  },
+  {
+    "name": "Everything Bagel",
+    "description": "A toasted bagel with sesame seeds, poppy seeds, and dried onion",
+    "price": 2.99,
+    "image": "images/miku.png"
+  },
+  {
+    "name": "Gingerbread Man",
+    "description": "A soft gingerbread cookie with a sweet icing glaze",
+    "price": 2.99,
+    "image": "images/nick.png"
+  },
+  {
+    "name": "Chocolate Fudge Brownie",
+    "description": "A rich fudge brownie drizzled with chocolate ganache",
+    "price": 3.99,
+    "image": "images/isaac.png"
+  },
+  {
+    "name": "Multigrain Bread",
+    "description": "A loaf of fresh-baked multigrain bread",
+    "price": 4.99,
+    "image": "images/jenny.png"
+  },
+  {
+    "name": "Steamed Taro Buns",
+    "description": "Two soft steamed buns filled with gooey purple taro filling",
+    "price": 5.99,
+    "image": "images/dylan.png"
+  },
+  {
+    "name": "Chocolate Chip Cookies",
+    "description": "Four classic chocolate chip cookies",
+    "price": 7.99,
+    "image": "images/anika.png"
+  }
+]

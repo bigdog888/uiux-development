@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Toast with Butter",
+    "description": "A slice of toast with a pat of butter",
+    "price": 1.99,
+    "image": "images/kelly.png"
+  },
+  {
+    "name": "Croissant",
+    "description": "A classic butter croissant with a flaky crust",
+    "price": 2.99,
+    "image": "images/jessie.png"
+  },
+  {
+    "name": "Everything Bagel",
+    "description": "A toasted bagel with sesame seeds, poppy seeds, and dried onion",
+    "price": 2.99,
+    "image": "images/miku.png"
+  },
+  {
+    "name": "Multigrain Bread",
+    "description": "A loaf of fresh-baked multigrain bread",
+    "price": 4.99,
+    "image": "images/jenny.png"
+  }
+]
