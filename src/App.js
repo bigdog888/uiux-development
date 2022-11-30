@@ -5,6 +5,13 @@ import sortedBakeryData from "./assets/sorted-bakery-data.json";
 import sortedToastData from "./assets/sorted-toast.json";
 import sortedVeganData from "./assets/sorted-vegan.json";
 import sortedToastVeganData from "./assets/sorted-toastvegan.json";
+/*
+  the sort function to mutate state doesn't trigger until after another button is clicked, while the filter function 
+  happens immediately; I wasn't sure why this was happening, and attempts to use callback functions/different state-altering
+  functions also failed, so to make the sort immediately happen, I preprocessed the sorting so that when the sort button is called
+  the menu changes are immediately reflected. To do a traditional sort by price as soon as the button is pressed, I would use the following function: 
+  setBakeryItems(bakeryItems.sort((a, b) => a.price - b.price));
+*/
 
 /* ####### DO NOT TOUCH -- this makes the image URLs work ####### */
 bakeryData.forEach((item) => {
@@ -50,6 +57,12 @@ function App() {
       setBakeryItems(sortedToastData);
     } 
     
+  }
+
+  function resetItems() {
+    setToastChecked(false);
+    setVeganChecked(false);
+    setBakeryItems(bakeryData);
   }
 
   function filterByVegan() {
@@ -140,6 +153,8 @@ function App() {
         </div>
           <ul>
           <button class="sortButton" onClick={() => sortItems()}>Sort by Price</button>
+          <br></br>
+          <button class="sortButton" onClick={() => resetItems()}>Reset Items</button>
           </ul>
         
         <div class="cart">
