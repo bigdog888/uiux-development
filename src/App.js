@@ -62,15 +62,12 @@ function App() {
     
   }
 
-<<<<<<< HEAD
   function resetItems() {
     setToastChecked(false);
     setVeganChecked(false);
     setBakeryItems(bakeryData);
   }
 
-=======
->>>>>>> 6959c29c487908a4d6243b1de1a1c51c7c3008ff
   function filterByVegan() {
     if (veganChecked === false) {
       setVeganChecked(true);
